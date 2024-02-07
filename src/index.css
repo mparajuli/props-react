@@ -1,0 +1,49 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.student {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student p {
+  margin-bottom: 10px;
+}
+
+.student p:last-child {
+  margin-bottom: 0;
+}
+
+.student .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.student .age {
+  font-size: 1em;
+  color: #666;
+}
+
+.student .status {
+  font-size: 1em;
+}
